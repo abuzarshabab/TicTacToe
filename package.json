@@ -5,8 +5,26 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "server": "nodemon server.js",
+    "client": "nodemon client.js"
+
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Abuzar",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abuzarshabab/TicTacToe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abuzarshabab/TicTacToe/issues"
+  },
+  "homepage": "https://github.com/abuzarshabab/TicTacToe#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "socket.io": "^4.2.0",
+    "socket.io-client": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
 }
