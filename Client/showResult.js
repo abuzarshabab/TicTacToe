@@ -1,6 +1,5 @@
 
-
-
+// Handling The Results of Players
 module.exports = function showResult (socket){
     socket.on('resign' , () =>{
     console.log('Opponent Resigned ');

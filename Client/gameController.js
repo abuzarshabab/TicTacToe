@@ -2,7 +2,7 @@
 const chalk = require('chalk');                     // importing Chalk   
 
 
-
+// Transmission Between Players
 module.exports = function gameController(socket) {
     socket.on('message', (data) => {
       const cmd = data;
